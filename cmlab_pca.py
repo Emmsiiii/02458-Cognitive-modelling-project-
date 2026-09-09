@@ -49,8 +49,9 @@ else:
     IMAGES_PATH = BASE_DIR / "images_grayscale"
 
 # ----------------------------------------------------------------------
-# 1. CARICAMENTO DELLE IMMAGINI
+# 1. IMAGE UPLOAD
 # ----------------------------------------------------------------------
+
 def load_images(images_path: Path, ext: str, grayscale: bool):
     filepaths = sorted(images_path.glob(ext))
     if not filepaths:
@@ -87,6 +88,7 @@ print(f"Caricate {n} immagini, ciascuna con shape {img_shape} -> vettori di dime
 # ----------------------------------------------------------------------
 # 2. PCA
 # ----------------------------------------------------------------------
+
 mean_image = X.mean(axis=0)
 X_centered = X - mean_image
 
@@ -101,8 +103,9 @@ print(f"Numero di PC necessarie per spiegare almeno il {VARIANCE_THRESHOLD:.0%} 
       f"della varianza: {n_components_selected} (su un massimo di {len(explained_var_ratio)})")
 
 # ----------------------------------------------------------------------
-# 3. VISUALIZZAZIONE DELLE PRIME COMPONENTI (min score / media / max score)
+# 3. COMPONENT VISUALIZATION (min score / mean / max score)
 # ----------------------------------------------------------------------
+
 def show_pc_effect(pc_idx, scores, components, mean_image, img_shape, grayscale):
     s_min = scores[:, pc_idx].min()
     s_max = scores[:, pc_idx].max()
@@ -131,8 +134,9 @@ for i in range(N_PC_TO_SHOW):
 plt.show()
 
 # ----------------------------------------------------------------------
-# 5. BAR PLOT DELLA VARIANZA SPIEGATA
+# 4. EXPLAINED VARIANCE BAR PLOT
 # ----------------------------------------------------------------------
+
 fig, ax = plt.subplots(figsize=(8, 4))
 ax.bar(range(1, len(explained_var_ratio) + 1), explained_var_ratio)
 ax.set_xlabel("Componente principale")
@@ -156,11 +160,8 @@ fig.savefig(BASE_DIR / "cumulative_variance_plot.png", dpi=150)
 plt.show()
 
 # ----------------------------------------------------------------------
-# 6. PREDITTORI PER IL MODELLO DI ENCODING
+# 5. PREDICTORS FOR THE ENCODING MODEL
 # ----------------------------------------------------------------------
-# scores[:, :n_components_selected] sono i predittori (X) da usare nel
-# modello di encoding lineare che mette in relazione lo spazio PCA con
-# il rating/target. Salvati qui per il passo successivo dell'assignment.
 
 encoding_predictors = scores[:, :n_components_selected]
 np.save(BASE_DIR / "pca_scores_selected.npy", encoding_predictors)
