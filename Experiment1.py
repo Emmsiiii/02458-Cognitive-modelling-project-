@@ -8,7 +8,8 @@ from PIL import Image, ImageTk
 # SETTINGS
 # -------------------------
 
-IMAGE_FOLDER = "/Users/emmsi/Desktop/images_grayscale"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGE_FOLDER = os.path.join(BASE_DIR, "images_grayscale")
 
 student_id = input("Enter student ID: ")
 

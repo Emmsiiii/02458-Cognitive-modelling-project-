@@ -1,0 +1,48 @@
+COGNITIVE MODELLING PROJECT
+============================================================
+
+PARTICIPANTS
+------------------------------------------------------------
+Participant: 226625
+Rating range: 1.0 to 5.0
+Normalised: False
+Rating 1: 192
+Rating 2: 76
+Rating 3: 46
+Rating 4: 22
+Rating 5: 76
+
+Participant: s262010
+Rating range: 1.0 to 5.0
+Normalised: False
+Rating 1: 37
+Rating 2: 180
+Rating 3: 91
+Rating 4: 80
+Rating 5: 24
+
+PCA
+------------------------------------------------------------
+Number of images: 206
+Image shape: (200, 200)
+Number of pixel features: 40000
+Variance threshold: 90%
+PCs required: 45
+
+REGRESSION
+------------------------------------------------------------
+Mean observed rating: 2.5000
+Observed rating range: 1.0000 to 5.0000
+Baseline CV MSE: 1.4050
+Final forward-selection CV MSE: 0.5653
+Selected PCs: [11, 10, 13, 8, 19, 16, 20, 2, 33, 1, 17, 3, 18, 14, 32, 6, 4]
+Number selected: 17
+Intercept: 2.500000
+Weight norm: 0.214927
+
+SYNTHETIC IMAGE RANGE
+------------------------------------------------------------
+Requested range: 0.5 to 5.5
+Prediction range on original images: 1.0496 to 5.0990
+Targets outside range: [0.5, 1.0, 5.5]
+Replacement targets: [1.0496, 1.4546, 1.8595, 2.2644, 2.6694, 3.0743, 3.4793, 3.8842, 4.2891, 4.6941, 5.099]
