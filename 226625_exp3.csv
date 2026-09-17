@@ -1,4 +1,36 @@
 trial_number,adaptor_condition,adaptor_file,adaptor_predicted_rating,test_file,test_predicted_rating,adapt_duration_s,test_duration_s,rating
+<<<<<<< HEAD
+1,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,0.51,0.53,5
+2,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,0.54,0.92,1
+3,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,0.69,0.81,2
+4,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,0.59,0.5,3
+5,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,0.53,0.7,1
+6,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,0.56,0.85,2
+7,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,0.57,0.8,2
+8,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,0.58,0.73,4
+9,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_2.26.png,2.26,0.64,0.74,5
+10,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,0.65,0.96,2
+11,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,0.51,0.55,4
+12,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,0.62,0.84,1
+13,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,0.68,0.54,2
+14,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,0.64,0.91,5
+15,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,0.57,0.54,2
+16,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,0.6,0.78,3
+17,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_2.26.png,2.26,0.56,0.65,1
+18,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,0.52,0.59,5
+19,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_2.26.png,2.26,0.59,0.51,4
+20,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,0.65,0.69,4
+21,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_2.26.png,2.26,0.55,0.77,5
+22,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,0.7,0.8,3
+23,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,0.52,0.66,1
+24,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,0.7,0.93,2
+25,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,0.66,0.96,3
+26,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,0.61,0.98,2
+27,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,0.64,0.68,1
+28,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,0.57,0.57,3
+29,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_2.26.png,2.26,0.62,0.7,4
+30,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,0.58,0.55,4
+=======
 1,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.06.png,3.06,24.03,0.61,5
 2,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_3.88.png,3.88,26.68,0.74,5
 3,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,26.69,0.93,1
@@ -29,3 +61,4 @@ trial_number,adaptor_condition,adaptor_file,adaptor_predicted_rating,test_file,t
 28,happy,safe_synthetic_face_rating_5.30.png,5.3,safe_synthetic_face_rating_2.26.png,2.26,23.26,0.56,5
 29,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.88.png,3.88,20.75,0.63,1
 30,unhappy,safe_synthetic_face_rating_0.82.png,0.82,safe_synthetic_face_rating_3.06.png,3.06,21.81,0.71,1
+>>>>>>> 3455a2f54c64419fe912c1f0fd22585e30fc27e1
